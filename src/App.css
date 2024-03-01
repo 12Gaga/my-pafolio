@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,93 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+.img:hover {
+  transform: scale(1.2);
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+section .animate {
+  opacity: 0;
+  transform: scale(0.5);
+  transition: all ease-in-out 1.5s;
+}
+
+section.show .animate {
+  opacity: 1;
+  transform: scale(1);
+  transition: all ease-in-out 1.5s;
+}
+
+.homesec .animate1 {
+  transform: translateX(-100%);
+}
+
+.homesec.show .animate1 {
+  transform: translateX(0);
+}
+
+.homesec .animate2 {
+  transform: scale(0.5);
+}
+
+.homesec.show .animate2 {
+  transform: scale(1);
+}
+
+.aboutsec .animate2 {
+  transform: translateX(130%);
+}
+
+.aboutsec.show .animate2 {
+  transform: translateX(0);
+}
+
+.aboutsec .animate1 {
+  transform: scale(0.7);
+}
+
+.aboutsec.show .animate1 {
+  transform: scale(1);
+}
+
+.skillsec .skill {
+  transform: translateX(100%);
+}
+
+.skillsec.show .skill {
+  transform: translateX(0);
+  transition-delay: calc(0.2s * var(--i));
+}
+
+.projectsec .animate1 {
+  transform: scale(0.7);
+}
+
+.projectsec.show .animate1 {
+  transform: scale(1);
+}
+
+.contactsec .contact {
+  transform: translateY(-130%);
+}
+
+.contactsec.show .contact {
+  transform: translateY(0);
+  transition-delay: calc(0.2s * var(--i));
+}
+
+.swiper {
+  width: 300px;
+  height: 380px;
+  margin: 0 auto;
 }
