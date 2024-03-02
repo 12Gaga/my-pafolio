@@ -4,28 +4,28 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { EffectCube, Pagination } from "swiper/modules";
 
 const projects = [
+  // {
+  //   url: "",
+  //   name: "Noeimo Cake Shop",
+  //   img: "",
+  //   description: "HTML,CSS,JS Only Front-End",
+  // },
+  // {
+  //   url: "",
+  //   name: "Tik Tok Clone App",
+  //   img: "",
+  //   description: "Nextjs (Client side)",
+  // },
   {
-    url: "",
-    name: "Noeimo Cake Shop",
-    img: "",
-    description: "HTML,CSS,JS Only Front-End",
-  },
-  {
-    url: "",
-    name: "Tik Tok Clone App",
-    img: "",
-    description: "Nextjs (Client side)",
-  },
-  {
-    url: "",
+    url: "https://mini-commerce-app.vercel.app/",
     name: "Mini-Commerce",
-    img: "",
+    img: "/mini-commerce.png",
     description: "Nextjs (Client side)",
   },
   {
-    url: "",
+    url: "https://foodie-pos-delta.vercel.app/",
     name: "Foodie POS",
-    img: "",
+    img: "foodie-pos.png",
     description: "Nextjs TypeScript Full Stack",
   },
 ];
@@ -95,16 +95,18 @@ const ProjectPage = () => {
                         height: "100%",
                       }}
                     >
-                      <img
-                        src={"/me1.jpg"}
-                        alt={"project-photo"}
-                        className="img"
-                        style={{
-                          transition: "all ease-in-out 0.5s",
-                          width: "100%",
-                          height: "100%",
-                        }}
-                      />
+                      <a href={item.url}>
+                        <img
+                          src={item.img}
+                          alt={"project-photo"}
+                          className="img"
+                          style={{
+                            transition: "all ease-in-out 0.5s",
+                            width: "100%",
+                            height: "100%",
+                          }}
+                        />
+                      </a>
                     </Box>
                     <Box
                       sx={{
@@ -118,7 +120,7 @@ const ProjectPage = () => {
                         alignItems: "center",
                       }}
                     >
-                      <Typography sx={{ color: "white" }}>
+                      <Typography sx={{ color: "black", fontWeight: "bold" }}>
                         {item.name}
                       </Typography>
                     </Box>
