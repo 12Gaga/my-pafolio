@@ -69,7 +69,7 @@ const About = () => {
               This is who I am, a fullstack developer who has experience in
               website and wed application and also the one who with passion for
               creating interesting,beautiful and dynamit websites by providing
-              with clean codes. I like creating web application usong
+              with clean codes. I like creating web application using
               technologies like React,Nextjs,Mui,Redux,Postgresql.
             </Typography>
           </Box>

@@ -8,7 +8,7 @@ import {
   useTheme,
 } from "@mui/material";
 import React from "react";
-import { useEffect, useState } from "react";
+import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
 
 const HomePage = () => {
   const theme = useTheme();
@@ -83,21 +83,25 @@ const HomePage = () => {
                   website and web application for the people to make their lives
                   easier in everything by being online.
                 </Typography>
-
-                <Button
-                  variant="contained"
-                  sx={{
-                    mt: 2,
-                    bgcolor:
-                      theme.palette.mode === "dark"
-                        ? "secondary.light"
-                        : "primary.main",
-                    color:
-                      theme.palette.mode === "dark" ? "primary.main" : "white",
-                  }}
-                >
-                  Contact
-                </Button>
+                <a href="/my-CV-form.pdf">
+                  <Button
+                    variant="contained"
+                    sx={{
+                      mt: 2,
+                      bgcolor:
+                        theme.palette.mode === "dark"
+                          ? "secondary.light"
+                          : "primary.main",
+                      color:
+                        theme.palette.mode === "dark"
+                          ? "primary.main"
+                          : "white",
+                    }}
+                  >
+                    Download CV
+                    <ArrowDropDownIcon />
+                  </Button>
+                </a>
               </Box>
             </Slide>
           </div>

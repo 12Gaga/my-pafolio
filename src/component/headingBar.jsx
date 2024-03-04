@@ -45,7 +45,10 @@ const Heading = ({ mode, setmode }) => {
         </Box>
 
         <Box sx={{ display: { xs: "block", md: "none" }, mr: 5 }}>
-          <MenuIcon sx={{ fontSize: "30px" }} onClick={() => setOpen(true)} />
+          <MenuIcon
+            sx={{ fontSize: "30px", color: "white" }}
+            onClick={() => setOpen(true)}
+          />
         </Box>
       </Box>
       <Drawer anchor={"right"} open={open} onClose={() => setOpen(false)}>

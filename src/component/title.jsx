@@ -48,6 +48,7 @@ const Titles = () => {
                 color:
                   theme.palette.mode === "dark" ? "secondary.light" : "white",
                 fontSize: { md: "13px", lg: "15px" },
+                bgcolor: theme.palette.mode === "dark" ? "black" : "#367166",
               }}
               onClick={() => scrollToSection(item.id)}
             />

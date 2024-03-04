@@ -4,12 +4,12 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { EffectCube, Pagination } from "swiper/modules";
 
 const projects = [
-  // {
-  //   url: "",
-  //   name: "Noeimo Cake Shop",
-  //   img: "",
-  //   description: "HTML,CSS,JS Only Front-End",
-  // },
+  {
+    url: "https://noeimo-cake-shop.vercel.app/",
+    name: "Noeimo Cake Shop",
+    img: "/noeimo.png",
+    description: "HTML,CSS,JS Only Front-End",
+  },
   // {
   //   url: "",
   //   name: "Tik Tok Clone App",
