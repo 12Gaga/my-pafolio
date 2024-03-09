@@ -33,74 +33,62 @@ const ContactPage = () => {
           sx={{
             display: "flex",
             flexDirection: "column",
-            gap: 1,
+            gap: 3,
             alignItems: "center",
           }}
         >
-          <div className="animate contact">
-            <Typography color={"secondary.light"}>First Name</Typography>
-            <TextField
-              sx={{
-                width: { xs: 300, sm: 500 },
-                border: theme.palette.mode === "dark" ? 1 : 0,
-                borderRadius: 1,
-                borderColor: "secondary.light",
-              }}
-              placeholder="First Name"
-              className="animate contact"
-              style={{ "--i": 1 }}
-            />
-          </div>
+          <TextField
+            sx={{
+              width: { xs: 300, sm: 500 },
+              border: theme.palette.mode === "dark" ? 1 : 0,
+              borderRadius: 1,
+              borderColor: "secondary.light",
+            }}
+            label="First Name"
+            className="animate contact"
+            style={{ "--i": 1 }}
+          />
 
-          <div className="animate contact">
-            <Typography color={"secondary.light"}>Last Name</Typography>
-            <TextField
-              sx={{
-                width: { xs: 300, sm: 500 },
-                border: theme.palette.mode === "dark" ? 1 : 0,
-                borderRadius: 1,
-                borderColor: "secondary.light",
-              }}
-              placeholder="Last Name"
-              className="animate contact"
-              style={{ "--i": 2 }}
-            />
-          </div>
+          <TextField
+            sx={{
+              width: { xs: 300, sm: 500 },
+              border: theme.palette.mode === "dark" ? 1 : 0,
+              borderRadius: 1,
+              borderColor: "secondary.light",
+            }}
+            label="Last Name"
+            className="animate contact"
+            style={{ "--i": 2 }}
+          />
 
-          <div className="animate contact">
-            <Typography color={"secondary.light"}>E-mail</Typography>
-            <TextField
-              sx={{
-                width: { xs: 300, sm: 500 },
-                border: theme.palette.mode === "dark" ? 1 : 0,
-                borderRadius: 1,
-                borderColor: "secondary.light",
-              }}
-              placeholder="E-mail"
-              type="email"
-              className="animate contact"
-              style={{ "--i": 3 }}
-            />
-          </div>
+          <TextField
+            sx={{
+              width: { xs: 300, sm: 500 },
+              border: theme.palette.mode === "dark" ? 1 : 0,
+              borderRadius: 1,
+              borderColor: "secondary.light",
+            }}
+            label="E-mail"
+            type="email"
+            className="animate contact"
+            style={{ "--i": 3 }}
+          />
 
-          <div className="animate contact">
-            <Typography color={"secondary.light"}>Phone</Typography>
-            <TextField
-              sx={{
-                width: { xs: 300, sm: 500 },
-                border: theme.palette.mode === "dark" ? 1 : 0,
-                borderRadius: 1,
-                borderColor: "secondary.light",
-              }}
-              placeholder="Phone"
-              className="animate contact"
-              style={{ "--i": 4 }}
-            />
-          </div>
+          <TextField
+            sx={{
+              width: { xs: 300, sm: 500 },
+              border: theme.palette.mode === "dark" ? 1 : 0,
+              borderRadius: 1,
+              borderColor: "secondary.light",
+            }}
+            label="Phone"
+            className="animate contact"
+            style={{ "--i": 4 }}
+          />
 
           <div className="animate contact">
             <Box sx={{ width: { xs: 300, sm: 500 } }}>
-              <Typography color={"secondary.light"}>Your Message</Typography>
+              {/* <Typography color={"secondary.light"}>Your Message</Typography> */}
               <textarea
                 style={{
                   width: "100%",
@@ -110,10 +98,11 @@ const ContactPage = () => {
                     theme.palette.mode === "dark" ? "#0ef" : "#dad9d9",
                   borderRadius: 5,
                   fontSize: "15px",
+                  padding: "12px",
                   "--i": 5,
                 }}
-                rows={8}
-                placeholder="Write here"
+                rows={7}
+                placeholder="Your message"
                 className="animate contact"
               ></textarea>
             </Box>

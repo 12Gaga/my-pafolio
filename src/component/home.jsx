@@ -36,7 +36,7 @@ const HomePage = () => {
                 }}
               >
                 <img
-                  src={"/me2.jpg"}
+                  src={"/eaint.jpg"}
                   alt={"my-photo"}
                   style={{
                     borderRadius: "40%",
@@ -83,7 +83,7 @@ const HomePage = () => {
                   website and web application for the people to make their lives
                   easier in everything by being online.
                 </Typography>
-                <a href="/my-CV-form.pdf">
+                <a href="/CV-form.pdf">
                   <Button
                     variant="contained"
                     sx={{
@@ -116,7 +116,7 @@ const HomePage = () => {
                 }}
               >
                 <img
-                  src={"/me2.jpg"}
+                  src={"/eaint.jpg"}
                   alt={"my-photo"}
                   style={{
                     borderRadius: "40%",
