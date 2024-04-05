@@ -18,7 +18,7 @@ const projects = [
     description: "Next js (Client Side)",
   },
   {
-    url: "https://foodie-pos-delta.vercel.app/",
+    url: "https://foodie-pos-topaz.vercel.app/",
     name: "Foodie POS",
     img: "foodie-pos.png",
     description: "Next js TypeScript Full Stack",

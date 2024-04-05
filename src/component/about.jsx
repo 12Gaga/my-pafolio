@@ -52,7 +52,7 @@ const About = () => {
               }}
             >
               <img
-                src={"/me1.jpg"}
+                src={"/me2.jpg"}
                 alt={"my-photo"}
                 style={{ width: "100%", height: "100%" }}
               />
