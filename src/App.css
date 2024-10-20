@@ -120,9 +120,88 @@ section.show .animate {
   transition-delay: calc(0.2s * var(--i));
 }
 
+.dropdown {
+  position: relative;
+}
+
+.drop {
+  display: none;
+  position: absolute;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+  padding: 5px;
+  z-index: 1;
+}
+
+.drop-phone {
+  left: 15px;
+  top: -45px;
+}
+
+.dropdown:hover .drop-phone {
+  display: block;
+}
+
+.drop-email {
+  left: -95px;
+  top: -45px;
+}
+
+.dropdown:hover .drop-email {
+  display: block;
+}
+
+.drop-linkedin {
+  left: -175px;
+  top: -45px;
+}
+
+.dropdown:hover .drop-linkedin {
+  display: block;
+}
+
+.dropdown:hover .linkedinHover {
+  color: rgb(37, 65, 201);
+}
+
+.drop-github {
+  left: -75px;
+  top: -45px;
+}
+
+.dropdown:hover .drop-github {
+  display: block;
+}
+
 .swiper {
-  width: 300px;
+  width: 1000px;
   height: 380px;
   margin: 0 auto;
   /* background-color: #dad9d9; */
+  /* border: 1px solid #dad9d9;*/
+}
+
+@media screen and (max-width: 1000px) {
+  .swiper {
+    width: 750px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .swiper {
+    width: 620px;
+    height: 450px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .swiper {
+    width: 400px;
+    height: 600px;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .swiper {
+    width: 350px;
+  }
 }

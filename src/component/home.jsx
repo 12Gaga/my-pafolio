@@ -63,7 +63,9 @@ const HomePage = () => {
                     display: "flex",
                     justifyContent: "space-around",
                     color:
-                      theme.palette.mode === "dark" ? "secondary.light" : "red",
+                      theme.palette.mode === "dark"
+                        ? "secondary.light"
+                        : "#367166",
                     mb: 2,
                   }}
                 >
@@ -79,11 +81,13 @@ const HomePage = () => {
                 </Box>
 
                 <Typography sx={{ pr: { xs: 0, md: 10 } }}>
-                  I am a fullstack developer from Myanmar. I love to create
-                  website and web application for the people to make their lives
-                  easier in everything by being online.
+                  I am a fullstack developer from Myanmar. I consider myself a
+                  responsible and orderly person. I love to create website and
+                  web application for the people to make their lives easier in
+                  everything by being online and I am seeking for my new skills
+                  and knowledges.
                 </Typography>
-                <a href="/CV-resume.pdf">
+                <a href="/cvResume.pdf">
                   <Button
                     variant="contained"
                     sx={{

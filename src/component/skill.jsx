@@ -26,22 +26,34 @@ const languages = [
     delay: 3,
   },
   {
-    img: "/nextjs.png",
-    name: "NextJs",
+    img: "/nodejs.png",
+    name: "NodeJs",
     skill: "Beginner",
     delay: 4,
   },
   {
-    img: "postgres.png",
-    name: "Postgesql",
-    skill: "Beginner",
+    img: "/nextjs.png",
+    name: "NextJs",
+    skill: "Intermediate",
     delay: 5,
   },
   {
-    img: "redux.png",
-    name: "Redux",
+    img: "/postgres.png",
+    name: "Postgesql",
     skill: "Beginner",
     delay: 6,
+  },
+  {
+    img: "/redux.png",
+    name: "Redux",
+    skill: "Beginner",
+    delay: 7,
+  },
+  {
+    img: "/graphql.png",
+    name: "Graphql",
+    skill: "Beginner",
+    delay: 8,
   },
 ];
 var r = document.querySelector(":root");

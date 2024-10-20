@@ -66,11 +66,15 @@ const About = () => {
               sx={{ fontSize: { xs: "13px", sm: "18px", md: "20px" } }}
               color={"secondary.light"}
             >
-              This is who I am, a fullstack developer who has experience in
-              website and wed application and also the one who with passion for
-              creating interesting,beautiful and dynamit websites by providing
-              with clean codes. I like creating web application using
-              technologies like React,Nextjs,Mui,Redux,Postgresql.
+              This is who I am, a fullstack developer who has experienced web
+              development with 1 year success creating and maintaing,
+              interesting, dynamic website and web application. Also the one who
+              with passion for creating beautiful and attractive websites by
+              providing with clean codes. I like creating web application using
+              technologies like React,Nextjs,Mui,Redux,Postgresq. I am a highly
+              motivated and dedicated web developer with a passion for learning
+              and reliability. I consider myself a responsible and orderly
+              person
             </Typography>
           </Box>
         </div>
